@@ -1,9 +1,60 @@
+body {
+  font-family: "Nunito", sans-serif;
+}
+
 h1 {
   font-family: "EB Garamond", serif;
   font-size: 60px;
+  color: white;
+  text-align: center;
 }
 
 p {
   font-family: "Nunito", sans-serif;
   font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../images/bridge.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 70px;
+  margin: 20px;
+}
+
+.header-button {
+  background-color: aliceblue;
+  color: black;
+  border-radius: 5px;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 5px;
+  margin: 0 auto;
+  width: 130px;
+  display: flex;
+  justify-content: center;
+  font-family: "Nunito", sans-serif;
+  transition: all 150ms ease-in-out;
+}
+
+.header-button:hover {
+  background-color: rgb(129, 49, 49);
+  color: white;
+}
+
+.code-link {
+  text-decoration: none;
+  color: rgb(129, 49, 49);
+}
+
+.code-link:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
 }
