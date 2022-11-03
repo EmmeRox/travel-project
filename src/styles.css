@@ -1,6 +1,6 @@
 body {
   font-family: "Nunito", sans-serif;
-  background-color: antiquewhite;
+  background-color: rgb(70, 87, 152);
 }
 
 h1 {
@@ -26,6 +26,11 @@ h3 {
   font-size: 17px;
   font-weight: 500;
   letter-spacing: 0.2em;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .container {
@@ -75,6 +80,29 @@ h3 {
   text-decoration: underline;
 }
 
+.grid {
+  display: grid;
+  grid-gap: 10px;
+}
+
+.top-section {
+  grid-template-columns: 1fr 2fr;
+  background-color: rgb(255, 248, 241);
+  border-radius: 10px;
+  margin: 5px 0;
+  text-align: center;
+}
+
+.main-info {
+  padding: 30px 10px;
+}
+
+.img {
+  max-width: 550px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
 footer {
   background-image: linear-gradient(rgba(2, 0, 138, 0.5), rgba(1, 0, 70, 0.6)),
     url("../images/skyline.jpg");
@@ -108,9 +136,8 @@ footer p {
 }
 
 .footer-container {
-  display: grid;
   grid-template-columns: 1fr 2fr 2fr;
-  padding: 10px 50px;
+  padding: 5px 10px;
 }
 
 footer div {
@@ -130,6 +157,7 @@ footer div {
   h3 {
     font-size: 15px;
     letter-spacing: 0.05em;
+    margin: 5px;
   }
 
   footer p {
@@ -138,5 +166,28 @@ footer div {
 
   footer li {
     font-size: 13px;
+  }
+
+  .img {
+    max-width: 300px;
+    margin: 10px;
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr;
+    padding: 5px;
+  }
+
+  .footer-container div {
+    line-height: 1.2;
+    padding: 5px;
+  }
+
+  .top-section {
+    grid-template-columns: 1fr;
+  }
+
+  .main-info {
+    padding: 5px 50px;
   }
 }
