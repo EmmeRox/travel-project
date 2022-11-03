@@ -20,6 +20,12 @@ h2 {
   margin-bottom: 40px;
 }
 
+h3 {
+  color: white;
+  font-size: 17px;
+  font-weight: 300;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -68,7 +74,20 @@ h2 {
 }
 
 footer {
-  text-align: center;
+  background-image: linear-gradient(rgba(2, 0, 138, 0.4), rgba(1, 0, 70, 0.4)),
+    url("../images/skyline.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+footer li {
+  list-style: none;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
 }
 
 @media (max-width: 900px) {
