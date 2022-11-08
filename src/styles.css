@@ -36,6 +36,10 @@ h4 {
   text-transform: uppercase;
 }
 
+h5 {
+  margin: 3px;
+}
+
 main {
   max-width: 1200px;
   margin: 0 auto;
@@ -88,9 +92,55 @@ main {
   text-decoration: underline;
 }
 
+.learn-more {
+  text-decoration: none;
+  background-color: rgb(70, 87, 152);
+  color: white;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  margin: 35px 5px 10px;
+}
+
+.secondary {
+  background-color: rgb(255, 248, 241);
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card {
+  background-color: rgb(255, 248, 241);
+  padding: 15px;
+  box-shadow: 1px 1px 10px gray;
+  font-size: 15px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+h2.text-center {
+  margin: 0;
+  padding-top: 30px;
+  color: black;
+}
+
+h3.text-center {
+  color: black;
+  margin-bottom: 40px;
+}
+
 .grid {
   display: grid;
   grid-gap: 10px;
+  margin: 10px;
+  padding: 15px;
+}
+
+.grid-3-col {
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .top-section {
@@ -109,7 +159,7 @@ main {
 
 .img {
   max-width: 100%;
-  margin: 5px;
+  margin: 0;
   border-radius: 10px;
 }
 
