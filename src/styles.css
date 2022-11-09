@@ -106,7 +106,7 @@ main {
 }
 
 .secondary {
-  background-color: rgb(255, 248, 241);
+  background-color: rgb(238, 233, 227);
   padding: 15px;
   border-radius: 10px;
   text-align: center;
@@ -114,9 +114,9 @@ main {
 
 .card {
   background-color: rgb(255, 248, 241);
-  box-shadow: 1px 1px 10px gray;
   font-size: 15px;
   padding-top: 10px;
+  border-radius: 5px;
 }
 
 .card-body {
@@ -156,7 +156,7 @@ h3.text-center {
 
 .top-section {
   grid-template-columns: 1fr 1fr;
-  background-color: rgb(255, 248, 241);
+  background-color: rgb(236, 230, 223);
   border-radius: 10px;
   margin: 5px 0;
   text-align: center;
@@ -166,6 +166,12 @@ h3.text-center {
   padding: 30px;
   text-align: left;
   font-size: 15px;
+}
+
+.third-section {
+  border-radius: 10px;
+  margin-top: 10px;
+  background-color: rgb(238, 233, 227);
 }
 
 .img {
