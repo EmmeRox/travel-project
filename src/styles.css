@@ -3,6 +3,11 @@ body {
   background-color: rgb(70, 87, 152);
 }
 
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
 h1 {
   font-family: "EB Garamond", serif;
   font-size: 60px;
@@ -73,11 +78,16 @@ td {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 70px;
+  padding-top: 30px;
   margin: 0 auto;
+  max-width: 900px;
   height: 350px;
   text-align: center;
   border-radius: 10px;
+}
+
+.details {
+  font-size: 15px;
 }
 
 .header-button {
@@ -131,6 +141,8 @@ td {
   background-color: rgb(238, 233, 227);
   padding: 15px;
   border-radius: 10px;
+  margin: 0 auto;
+  max-width: 900px;
   text-align: center;
 }
 
@@ -180,19 +192,22 @@ h3.text-center {
   grid-template-columns: 1fr 1fr;
   background-color: rgb(236, 230, 223);
   border-radius: 10px;
-  margin: 5px 0;
+  margin: 0 auto;
+  max-width: 900px;
   text-align: center;
+  font-size: 15px;
 }
 
 .main-info {
   padding: 15px;
   text-align: left;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .third-section {
   border-radius: 10px;
-  margin-top: 10px;
+  margin: 0 auto;
+  max-width: 900px;
   background-color: rgb(238, 233, 227);
   padding: 15px;
 }
@@ -227,6 +242,10 @@ h3.text-center {
   padding: 35px 10px 0;
 }
 
+.insta-media {
+  margin: 25px;
+}
+
 footer {
   background-image: linear-gradient(rgba(2, 0, 138, 0.6), rgba(1, 0, 70, 0.7)),
     url("../images/skyline.jpg");
@@ -234,7 +253,7 @@ footer {
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 10px;
-  max-width: 1200px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
@@ -301,6 +320,10 @@ footer div {
     max-width: 75%;
   }
 
+  .top-section {
+    grid-template-columns: 1fr;
+  }
+
   .footer-container {
     grid-template-columns: 1fr;
     grid-gap: 5px;
@@ -312,13 +335,9 @@ footer div {
     padding: 5px;
   }
 
-  .top-section {
-    grid-template-columns: 1fr;
-  }
-
   .main-info {
     padding: 15px 50px;
-    text-align: left;
+    text-align: center;
     font-size: 13px;
   }
 
