@@ -56,6 +56,7 @@ table {
   border-radius: 5px;
   border: 2px solid grey;
   background-color: white;
+  margin: 0 auto;
 }
 
 th {
@@ -83,7 +84,6 @@ td {
   max-width: 900px;
   height: 350px;
   text-align: center;
-  border-radius: 10px;
 }
 
 .details {
@@ -140,7 +140,6 @@ td {
 .secondary {
   background-color: rgb(238, 233, 227);
   padding: 15px;
-  border-radius: 10px;
   margin: 0 auto;
   max-width: 900px;
   text-align: center;
@@ -191,7 +190,6 @@ h3.text-center {
 .top-section {
   grid-template-columns: 1fr 1fr;
   background-color: rgb(236, 230, 223);
-  border-radius: 10px;
   margin: 0 auto;
   max-width: 900px;
   text-align: center;
@@ -205,7 +203,6 @@ h3.text-center {
 }
 
 .third-section {
-  border-radius: 10px;
   margin: 0 auto;
   max-width: 900px;
   background-color: rgb(238, 233, 227);
