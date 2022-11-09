@@ -23,9 +23,10 @@ h2 {
 
 h3 {
   color: white;
-  font-size: 17px;
+  font-size: 20px;
   font-weight: 500;
   letter-spacing: 0.2em;
+  margin-top: 15px;
 }
 
 h4 {
@@ -103,6 +104,11 @@ main {
   text-align: center;
   text-transform: uppercase;
   font-size: 15px;
+  transition: all 150ms ease-in-out;
+}
+
+.learn-more:hover {
+  background-color: rgb(129, 49, 49);
 }
 
 .secondary {
@@ -172,6 +178,7 @@ h3.text-center {
   border-radius: 10px;
   margin-top: 10px;
   background-color: rgb(238, 233, 227);
+  padding: 15px;
 }
 
 .img {
@@ -243,7 +250,7 @@ footer div {
   line-height: 1.5;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
   h1 {
     font-size: 40px;
   }
@@ -253,9 +260,9 @@ footer div {
   }
 
   h3 {
-    font-size: 15px;
+    font-size: 17px;
     letter-spacing: 0.05em;
-    margin: 5px;
+    margin: 15px;
   }
 
   h4 {
