@@ -38,12 +38,28 @@ h4 {
 }
 
 h5 {
+  font-size: 15px;
   margin: 3px;
 }
 
 main {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+table {
+  border-radius: 5px;
+  border: 2px solid grey;
+  background-color: white;
+}
+
+th {
+  border: 2px solid lightgray;
+  font-size: 12px;
+}
+
+td {
+  border: 1px solid lightgray;
 }
 
 .container {
@@ -169,7 +185,7 @@ h3.text-center {
 }
 
 .main-info {
-  padding: 30px;
+  padding: 15px;
   text-align: left;
   font-size: 15px;
 }
@@ -184,6 +200,7 @@ h3.text-center {
 .img {
   width: 100%;
   margin: 0 auto;
+  filter: saturate(145%);
 }
 
 .card-header.grid {
@@ -198,8 +215,10 @@ h3.text-center {
 .img-main {
   max-width: 100%;
   margin: 0 auto;
-  border-radius: 10px;
+  border-radius: 25px;
   max-height: 350px;
+  filter: saturate(145%);
+  padding: 20px;
 }
 
 .card-footer {
