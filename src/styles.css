@@ -79,11 +79,12 @@ td {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding-top: 30px;
+  padding-top: 50px;
   margin: 0 auto;
   max-width: 900px;
   height: 350px;
   text-align: center;
+  border-radius: 25px 25px 10px 10px;
 }
 
 .details {
@@ -139,7 +140,7 @@ td {
 
 .secondary {
   background-color: rgb(238, 233, 227);
-  padding: 15px;
+  padding: 0px;
   margin: 0 auto;
   max-width: 900px;
   text-align: center;
@@ -164,7 +165,8 @@ h2.text-center {
   margin: 0;
   padding-top: 30px;
   color: black;
-  font-size: 30px;
+  font-size: 40px;
+  font-family: "EB Garamond", serif;
 }
 
 h3.text-center {
@@ -175,7 +177,6 @@ h3.text-center {
 .grid {
   display: grid;
   grid-gap: 25px;
-  margin: 10px;
   padding: 15px;
 }
 
@@ -194,6 +195,8 @@ h3.text-center {
   max-width: 900px;
   text-align: center;
   font-size: 15px;
+  padding: 0;
+  border-radius: 10px 10px 0 0;
 }
 
 .main-info {
@@ -206,7 +209,7 @@ h3.text-center {
   margin: 0 auto;
   max-width: 900px;
   background-color: rgb(238, 233, 227);
-  padding: 15px;
+  border-radius: 0 0 10px 10px;
 }
 
 .img {
@@ -249,7 +252,7 @@ footer {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  border-radius: 10px;
+  border-radius: 10px 10px 25px 25px;
   max-width: 900px;
   margin: 0 auto;
 }
@@ -285,7 +288,7 @@ footer div {
   line-height: 1.5;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 900px) {
   h1 {
     font-size: 40px;
   }
@@ -336,10 +339,19 @@ footer div {
     padding: 5px;
   }
 
+  .details {
+    font-size: 11px;
+    margin: 0 auto;
+    padding-left: 2px;
+  }
+
+  .table {
+    padding-top: 30px;
+  }
+
   .main-info {
-    padding: 15px 50px;
+    padding: 15px 15px;
     text-align: center;
-    font-size: 13px;
   }
 
   .grid-3-col {
